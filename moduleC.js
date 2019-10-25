@@ -1,5 +1,5 @@
 (function () {
-  //用户点击提交按钮
+  //提交消息功能
   $('user_submit').onclick = function () {
     var text = $('user_input')
     //如果消息为空则提交失败
