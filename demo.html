@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>观察器demo</title>
+</head>
+<body>
+<ul id="msg">
+  <h3>最新发布消息<span id="msg_num">0</span>条</h3>
+</ul>
+<textarea id="user_input"></textarea>
+<button id="user_submit">提交</button>
+</body>
+<script src="./observer.js"></script>
+<script>
+  function $(id) {
+    return document.getElementById(id)
+  }
+</script>
+<script src="./moduleA.js"></script>
+<script src="./moduleB.js"></script>
+<script src="./moduleC.js"></script>
+</html>
